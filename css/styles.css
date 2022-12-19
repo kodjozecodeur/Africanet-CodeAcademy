@@ -1074,7 +1074,6 @@ a.back-to-top {
 a:hover.back-to-top {
 	background-color: #f0a731;
 }
-
 /* Min-width width 768px */
 @media (min-width: 768px) {
 
