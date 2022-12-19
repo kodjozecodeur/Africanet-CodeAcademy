@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="landing page of an training formation service, web developement, mobile developpement.">
+    <title>Africanet CodeAcademy</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+
+
+        <a class="navbar-brand logo-image" href="index.html"><h6>AfricaNet <span class="yellow">CodeAcademy.</span></h6></a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#register">Je m'inscris <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+            <span class="nav-item social-icons">
+                <span class="fa-stack">
+                    <a href="#your-link">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-facebook-f fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a href="#your-link">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-instagram fa-stack-1x"></i>
+                    </a>
+                </span>
+            </span>
+        </div>
+    </nav>
+
+
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <div class="countdown">
+                            <span id="clock"></span>
+                        </div>
+                        <h1>Coder <span class="yellow"> facilement</span></h1>
+                        <p class="p-large">Venez suivre une fomation axée sur la pratique afin de vous initier aux metiers de la programmation </p>
+                        <a class="btn-solid-lg page-scroll" href="#register">Je m'inscris</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image Slider -->
+        <div class="outer-container">
+            <div class="slider-container">
+                <div class="swiper-container image-slider-1">
+                    <div class="swiper-wrapper">
+
+                        <!-- Slide -->
+                        <div class="swiper-slide" >
+                            <img class="img-fluid" src="images/details-slide-1.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-2.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-3.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                    </div> <!-- end of swiper-wrapper -->
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- end of add arrows -->
+
+                </div> <!-- end of swiper-container -->
+            </div> <!-- end of slider-container -->
+        </div> <!-- end of outer-container -->
+        <!-- end of image slider -->
+
+    </header>
+
+
+    <div id="register" class="form-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>Remplissez ce formulaire pour vous inscrire</h2>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Veuillez fournir les informations </strong> demandees dans le formulaire</div>
+                            </li>
+
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Vous recevrez une email</strong> de confirmation</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+
+                    <!-- Registration Form -->
+                    <div class="form-container">
+                        <form id="registrationForm" data-toggle="validator" data-focus="false">
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="lname" name="lname" required>
+                                <label class="label-control" for="lname">Votre nom</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="fname" name="fname" required>
+                                <label class="label-control" for="lname">Votre prenom</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control-input" id="email" name="email" required>
+                                <label class="label-control" for="email">Votre email</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="phone" name="phone" required>
+                                <label class="label-control" for="phone">Votre numero de telephone</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <select name="courses" id="courses" class="form-control-select" required>
+                                    <option value="">Quels modules vous avez-choisi</option>
+                                    <option value="1">Developpement web</option>
+                                    <option value="2">Developpement Mobile</option>
+                                    <option value="3">Developpement Logiciel</option>
+                                    <option value="4">Consultant en cybersécurité</option>
+                                </select>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control-submit-button">Je m'inscris</button>
+                            </div>
+                            <div class="form-message">
+                                <div id="rmsgSubmit" class="h3 text-center hidden"></div>
+                            </div>
+                        </form>
+                    </div> <!-- end of form-container -->
+                    <!-- end of registration form -->
+
+                </div> <!-- end of col -->
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="instructor" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/team.webp" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>Une equipe dynamique pour vous encadrer</h2>
+                        <p>Vous serez encadrés par des experts aguéris dans le domaine pour vous conduire, vous mentorer et vous suivre tout au long de la formation</p>
+                        <p>Ils seront là pour vous aider à évoluer dans votre voyage dans le monde de la technologie</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- les modules de la formation -->
+    <div class="cards">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Les modules de la formation</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="card">
+                        <div class="card-image">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Dévelopement web</h4>
+                            <p>Créer des sites web de dernière génération totalement adptable sur tout type de sypports</p>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="card-image">
+                            <i class="fas fa-mobile"></i>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Développement mobile</h4>
+                            <p>Comment une applicqtion mobile est faite; du design à la conception; vous apprendrez tout</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-image">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Cybersécurité</h4>
+                            <p>Obtenez les clés de l'univers de la sécurité informatique et devenez une référence dans le domaine</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="date" class="basic-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <h2>Debut des cours: <span class="yellow">16 janvier 2023</span></h2>
+                        <h2>Lieu: <span class="yellow">Quatier Adakpame Zimba</span></h2>
+
+                        <p>Ne donnez plus d'excuses pour vous lancer. Décider maintenant et vivez mieux plus tard. Inscrivez-vous à ces <span class="yellow">six(06)</span>mois de formation pratique en programmation informatique en plusieurs langages</p>
+                        <a class="btn-solid-lg page-scroll" href="#register">Je m'inscris</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="form-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+
+                        <h3>Nos contacts</h3>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="media-body">Lomé,Adakpamé Quartier Zimba</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-mobile-alt"></i>
+                                <div class="media-body">+228 90 89 67 69, &nbsp;&nbsp;<i class="fas fa-mobile-alt"></i>&nbsp; +228 99 93 32 24</div>
+                            </li>
+                            <!-- in case i receive more information on the location, i will decomment it -->
+                            <!-- <li class="media">
+                                <i class="fas fa-envelope"></i>
+                                <div class="media-body"><a class="light-gray" href="mailto:contact@zigo.com">contact@zigo.com</a> <i class="fas fa-globe"></i><a class="light-gray" href="#your-link">www.zigo.com</a></div>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2022  - Tous droits réservés</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <!-- <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/validator.min.js"></script>  -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+</html>
